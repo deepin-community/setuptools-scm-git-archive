@@ -1,0 +1,62 @@
+setuptools-scm-git-archive (1.1-4) unstable; urgency=medium
+
+  * Fix d/watch.
+  * Bump std-vers to 4.6.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 19 Aug 2021 11:04:52 +0200
+
+setuptools-scm-git-archive (1.1-3) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Julien Puydt ]
+  * Bump dh compat to 13.
+  * Mark the import test as superficial (Closes: #971502).
+  * Declare d/rules doesn't require root.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 11 Oct 2020 15:58:50 +0200
+
+setuptools-scm-git-archive (1.1-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+  * Bump Standards-Version to 4.4.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 27 Jul 2019 21:51:29 +0200
+
+setuptools-scm-git-archive (1.1-1) unstable; urgency=medium
+
+  [ Michael R. Crusoe ]
+  * Generate a full .egg-info (Closes: #910742)
+  * Standards-Version: 4.3.0, no changes needed
+
+  [ Julien Puydt ]
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 14 Apr 2019 00:13:01 +0200
+
+setuptools-scm-git-archive (1.0-2) unstable; urgency=medium
+
+  * Add missing depends.
+  * Ship a .egg-info file. (Closes: #910742)
+  * Bump std-ver to 4.2.1.
+  * Remove the autopkgtest for the non-existent Python2 package (!).
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 04 Nov 2018 12:18:13 +0100
+
+setuptools-scm-git-archive (1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #902911)
+
+ -- Julien Puydt <jpuydt@debian.org>  Sun, 24 Jun 2018 23:04:19 +0200

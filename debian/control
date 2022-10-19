@@ -1,0 +1,27 @@
+Source: setuptools-scm-git-archive
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Julien Puydt <jpuydt@debian.org>
+Section: python
+Priority: optional
+Build-Depends: debhelper-compat (= 13),
+               dh-python (>= 2.20160609~),
+               python3-all,
+               python3-setuptools,
+               python3-setuptools-scm,
+               python3-pytest
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/python-team/packages/setuptools-scm-git-archive
+Vcs-Git: https://salsa.debian.org/python-team/packages/setuptools-scm-git-archive.git
+Homepage: https://github.com/Changaco/setuptools_scm_git_archive
+Rules-Requires-Root: no
+
+Package: python3-setuptools-scm-git-archive
+Architecture: all
+Depends: ${misc:Depends},
+         ${python3:Depends},
+         python3-setuptools-scm
+Description: Plugin for setuptools_scm to add support for git archives
+ This is a setuptools_scm plugin that adds support for git archive, for
+ example like the ones GitHub generates.
+ .
+ This package installs the library for Python 3.

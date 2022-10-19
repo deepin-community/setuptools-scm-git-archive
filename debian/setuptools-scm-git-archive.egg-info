@@ -1,0 +1,9 @@
+Metadata-Version: 1.1
+Name: setuptools-scm-git-archive
+Version: VERSION
+Summary: Plugin for setuptools_scm to add support for git archives
+Home-page: https://github.com/Changaco/setuptools_scm_git_archive
+License: MIT
+Author: Changaco
+Description: UNKNOWN
+Platform: UNKNOWN
